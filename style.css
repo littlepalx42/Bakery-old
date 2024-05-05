@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.nav{
+    position: fixed;
+    top: 3px;
+    width: 100%;
+    height: 10%;
+    background-color: peachpuff;
+    z-index: 999;
+}
+
+.nav p{
+    position: relative;
+    top: 40%;
+    left: 15%;
+    display: inline;
+    padding: 30px;
+    font-size: 22px;
+    color: brown;
+    /* text-shadow: 2px 2px gray; */
+    font-weight: 20px;
+}
+.tag{
+    width: 15%;
+    height: 20%;
+    padding: 50px;
+    padding-left: 20px;
+    background-color: burlywood;
+    border-top-right-radius: 300px;
+    border-bottom-right-radius: 300px;
+    position: sticky;
+    top: 60%;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: saddlebrown;
+    text-align: center;
+}
+
+.page{
+    width: 100%;
+    height: 100%;
+}
+.container1{
+    background-color: mediumaquamarine;
+    background-image: url(https://images.pexels.com/photos/132694/pexels-photo-132694.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: 100%;  
+}
+
+.content{
+    position: absolute;
+    border-radius: 40px;
+    top: 30%;
+    right: 20%;
+    background-color: transparent;
+    backdrop-filter: blur(8px);
+    height: 50%;
+    width: 30%;
+}
+.content h1{
+    margin: 10%;
+
+}
+.content p{
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 18px;
+}
+.content p button{
+    margin-top: 7px;
+    padding: 7px;
+    font-size: 15px;
+    border-radius: 40px;
+    background-color: transparent;
+}
+
+.container2{
+    background-color: palevioletred;
+    background-image: url(https://images.pexels.com/photos/9482665/pexels-photo-9482665.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: 100%;
+ }
+ 
+.cont2{
+    position: absolute;
+    border-radius: 40px;
+    top: 130%;
+    right: 20%;
+    background-color: transparent;
+    backdrop-filter: blur(8px);
+    height: 50%;
+    width: 30%;
+}
+.cont2 h1{
+    margin: 10%;
+
+}
+.cont2 p{
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 18px;
+}
+.cont2 p button{
+    margin-top: 7px;
+    padding: 7px;
+    font-size: 15px;
+    border-radius: 40px;
+    background-color: transparent;
+}
+
+
+
+
+
+
+
